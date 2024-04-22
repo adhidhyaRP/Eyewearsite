@@ -1,0 +1,120 @@
+.content img{
+    width: 100%;
+    height: 700px;
+    
+}
+
+.imageinsidemail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 300px;
+
+    color: azure;
+    
+    
+}
+.tocenter{
+    display: flex;
+    justify-content: center;
+    
+}
+.imageinsidemail div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.imageinsidemail div input{
+    width: 400px;
+    border: none;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.imageinsidemail div button{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+}
+
+.circles{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(84, 82, 82);
+    border-radius: 50%;
+    
+}
+
+.nav-item{
+    margin-left: 60px;
+}
+.circles svg{
+    margin-left: 50px;
+    width: 200px;
+    height: 300px;
+}
+.writingcontent{
+   margin-top: 70px;
+   margin-left: 100px;
+   margin-bottom: 70px;
+   
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+
+}
+.secondcontent{
+    display: flex;
+    justify-content: space-around;
+}
+.fiveimages{
+    margin-top: 300px;
+   /* display: flex; */
+    
+    /* width: 100vw; */
+    height: 600px;
+}
+
+
+.fiveimages {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fiveimages img {
+    margin-top:150px;
+    width: calc(20% - 20px); /* Adjust image width based on the number of images you want to display in a row */
+    margin-bottom: 20px; /* Add some space between images */
+    /* max-width: 100%; Ensure images do not exceed their container's width */
+}
+
+@media screen and (max-width: 600px) {
+    .fiveimages img {
+        width: calc(50% - 20px); /* Adjust image width for smaller screens */
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .circles{
+        width: 200px;
+        height: 200px;
+       
+        
+    }
+    .circles svg{
+        margin-left: 50px;
+        width: 100px;
+        height: 200px;
+    }
+    
+}
